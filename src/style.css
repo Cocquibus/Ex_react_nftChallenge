@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+.bodyCard{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 1px 12px 22px 9px rgba(0,0,0,0.42);
+}
+.creationBy{
+    display: flex;
+    align-items: center;
+}
+.creationBy_image{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 100%;
+    margin-right: 10px;
+}
+.imageBase{
+    width: 100%;
+    border-radius: 20px;
+}
+.text > h3{
+    color: white;
+}
+.text > p{
+    color: hsl(215, 19%, 49%);
+}
+.price{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.priceImg{
+    margin-right: 10px;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+hr{
+    color: hsl(215, 32%, 27%);
+}
+.day{
+    color: hsl(215, 19%, 49%);
+}
+.dayImg{
+    margin-right: 10px;
+}
+.dflex{
+    display: flex;
+    align-items: center;
+}
+.taille{
+    height: 40px;
+}
+.creationBy p{
+    color: hsl(215, 19%, 49%);
+}
+.creationBy span{
+    color:white;
+}
